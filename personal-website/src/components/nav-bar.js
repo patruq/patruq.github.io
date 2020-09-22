@@ -1,11 +1,11 @@
 import React from 'react';
-import { Nav, NavBar, Navbar } from 'react-bootstrap';
+import { Nav, Navbar } from 'react-bootstrap';
 import styled from 'styled-components';
 
 const Styles = styled.div`
   .navbar { 
     background-color: #000000;
-    height: 75px;
+    height: 55px;
    }
 
   a, .navbar-nav, .navbar-light .nav-link {
