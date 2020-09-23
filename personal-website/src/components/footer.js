@@ -14,26 +14,11 @@ const Styles = styled.div`
         color: white;
         height: 55px;
         margin: 0 auto;
-        position: absolute;
+        position: fixed;
         width: 100%;
         text-align: center;
     }
 `;
-/*
-const Feature = () => {
-    return (
-        <div className="main-footer">
-            <div className="icons">
-                <h4>Icons</h4>
-                <div className="copyright">
-                    <h6>Copyright Info</h6>
-                </div>
-            </div>
-        </div>
-    )
-}
-export default Feature;
-*/
 
 export const Footer = () => (
     <Styles>
