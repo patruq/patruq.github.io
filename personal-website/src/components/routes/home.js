@@ -5,24 +5,20 @@ const Styles = styled.div`
     .left-half {
         position: absolute;
         left: 0px;
-    }
-    img {
-        position: absolute;
-        right: 0px;
-        height: 100%;
+        width: 60%;
     }
     h1 {
         font-family: Open Sans;
         font-size: 100px;
-        padding-top: 250px;
-        padding-left: 300px;
+        padding-top: 20%;
+        padding-left: 30%;
     }
     h2 {
         color: #00B5FF;
-        font-family: PT Sans;
+        font-family: Noto Sans;
         font-size: 60px;
         padding-top: 50px;
-        padding-left: 300px;
+        padding-left: 30%;
     }
 `;
 
@@ -33,6 +29,5 @@ export const Home = (props) => (
             <h1>Hi,<br/>I'm Patrick</h1>
             <h2>Analyst & Engineer<br/>Tech Nerd & Tinkerer</h2>
         </div>
-        <img src={require("../../assets/images/black-white-brick copy.jpg")} />
      </Styles>
 )

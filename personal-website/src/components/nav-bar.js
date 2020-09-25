@@ -6,6 +6,7 @@ const Styles = styled.div`
   .navbar { 
     background-color: #000000;
     height: 55px;
+    position: sticky;
    }
 
   a, .navbar-nav, .navbar-light .nav-link {
