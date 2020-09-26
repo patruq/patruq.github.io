@@ -1,0 +1,20 @@
+.left-half {
+    position: absolute;
+    left: 0px;
+    width: 60%;
+}
+
+.name {
+    font-family: Open Sans;
+    font-size: 100px;
+    padding-top: 20%;
+    padding-left: 30%;
+}
+
+.slogan {
+    color: #00B5FF;
+    font-family: Noto Sans;
+    font-size: 50px;
+    padding-top: 50px;
+    padding-left: 30%;
+}

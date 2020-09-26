@@ -6,14 +6,13 @@ const Styles = styled.div`
   .navbar { 
     background-color: #000000;
     height: 55px;
-    position: sticky;
    }
 
   a, .navbar-nav, .navbar-light .nav-link {
     color: #FFFFFF;
     font-family: Open Sans;
     font-size: 15px;
-    &:hover { color: gray; }
+    &:hover { color: #00B5FF; }
   }
   ./ml-auto {
     color: white;

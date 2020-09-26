@@ -1,4 +1,6 @@
 import React from 'react';
+import '../../assets/css/home.css'
+/*
 import styled from 'styled-components';
 
 const Styles = styled.div`
@@ -21,13 +23,15 @@ const Styles = styled.div`
         padding-left: 30%;
     }
 `;
-
+*/
 
 export const Home = (props) => (
-     <Styles>
+    <body>
+    {/* <Styles> */}
         <div className="left-half">
-            <h1>Hi,<br/>I'm Patrick</h1>
-            <h2>Analyst & Engineer<br/>Tech Nerd & Tinkerer</h2>
+            <h1 className="name">Hi,<br/>I'm Patrick</h1>
+            <h2 className="slogan">Analyst & Engineer<br/>Tech Nerd & Tinkerer</h2>
         </div>
-     </Styles>
+     {/* </Styles> */}
+     </body>
 )
