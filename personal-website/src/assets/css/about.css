@@ -7,7 +7,7 @@ body {
 }
 .about-statement {
     bottom: 0;
-    color: #000000;
+    /* color: #000000; */
     font-family: Noto Sans;
     font-size: calc(1em + .3vmin);
     font-weight: bold;
@@ -19,7 +19,8 @@ body {
 }
 .upper-section {
     background-color: #000000;
-    height: 550px;
+    /* height: 550px; */
+    height: 350px;
     margin-left: auto;
     margin-right: auto;
     position: relative;
@@ -41,11 +42,11 @@ body {
 .img-fluid {
     float: right;
     height: auto;
-    max-width: 350px;
-    max-height: 350px;
+    max-width: 250px;
+    max-height: 250px;
     opacity: 0.8;
     position: absolute;
-    top: 36%;
+    top: 28%;
     left: 65%;
 }
 
