@@ -22,7 +22,7 @@ function App() {
         </Switch>
       </Router>
     <div className="page-container"></div>
-    {/* <Footer /> */}
+    <Footer />
     </React.Fragment>
   );
 }

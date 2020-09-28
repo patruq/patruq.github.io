@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../assets/css/portfolio.css'
+// import { Footer } from '../../components/footer';
 
 export const Portfolio= (props) => (
     <body>
@@ -23,5 +24,6 @@ export const Portfolio= (props) => (
                 <img className="bottom-right-img" src={require("../../assets/images/school.webp")} />
             </div>
         </div>
+        {/* <Footer /> */}
     </body>
 )
