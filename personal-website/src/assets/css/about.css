@@ -7,7 +7,7 @@ body {
 }
 .about-statement {
     bottom: 0;
-    /* color: #000000; */
+    /* color: #00B5FF; */
     font-family: Noto Sans;
     font-size: calc(1em + .3vmin);
     font-weight: bold;
@@ -66,7 +66,7 @@ body {
 } 
  .tech-types {
     /* clear: both; */
-    color: #00B5FF;
+    /* color: #00B5FF; */
     /* display: table; */
     font-family: PT Sans;
     font-size: calc(1em + 3vmin);
@@ -83,6 +83,7 @@ body {
 }
 .center {
     /* background: green; */
+    color: #00B5FF;
     width: 33%;
 }
 .right {
