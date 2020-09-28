@@ -18,7 +18,7 @@ function App() {
           <Route exact path="/" component={Home} />
           <Route path="/routes/about" component={About} />
           <Route path="/routes/portfolio" component={Portfolio} />
-          <Route path="/routes/contact" component={Contact} />
+          {/* <Route path="/routes/contact" component={Contact} /> */}
         </Switch>
       </Router>
     <div className="page-container"></div>

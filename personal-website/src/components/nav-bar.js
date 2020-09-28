@@ -28,7 +28,7 @@ export const NavigationBar = () => (
           <Nav.Item><Nav.Link href="/">home</Nav.Link></Nav.Item> 
           <Nav.Item><Nav.Link href="/routes/about">about</Nav.Link></Nav.Item>
           <Nav.Item><Nav.Link href="/routes/portfolio">portfolio</Nav.Link></Nav.Item>
-          <Nav.Item><Nav.Link href="/routes/contact">contact</Nav.Link></Nav.Item>
+          {/* <Nav.Item><Nav.Link href="/routes/contact">contact</Nav.Link></Nav.Item> */}
         </Nav>
         <Nav className="ml-auto">
           <Nav.Item><Nav.Link href="https://github.com/patruq" target="blank">github</Nav.Link></Nav.Item>
